@@ -1,0 +1,289 @@
+.form-control {
+color : #000;
+border : #ccc solid 1px;
+}
+footer.app-footer {
+display : none;
+}
+.app-container {
+background : #f9fbff;
+}
+.container-fluid {
+background : inherit;
+}
+.voyager .panel {
+border : none;
+box-shadow : -2px 1px 10px rgb(0, 0, 0, 0.1);
+}
+.voyager .browse .panel {
+box-shadow : none;
+}
+table.dataTable tbody tr {
+border-bottom : 10px solid #f9fbff;
+}
+table.dataTable.no-footer {
+border-bottom : 1px solid #f1f1f1;
+border-collapse : collapse;
+}
+.panel-bordered > .panel-body {
+background : #f9fbff;
+}
+.voyager .table > thead > tr > th {
+border-color : #eaeaea;
+background : #f8fafc;
+color : #263b5e;
+font-size : 14px;
+text-align : left;
+padding : 8px 14px;
+font-weight : bold;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+vertical-align : middle;
+}
+.voyager .table > tbody > tr > td p {
+margin : 0;
+}
+#dash .affectations {
+width : 250px;
+display : inline-block;
+}
+.one-board {
+width : 100%;
+margin-top : 20px;
+display : flex;
+justify-content : end;
+}
+#dash .one-board .state_container {
+display : block;
+width : 100%;
+}
+.voyager .table > tbody > tr > td {
+text-transform : lowercase;
+}
+.voyager .table > tbody > tr > td > *::first-letter {
+text-transform : uppercase;
+}
+
+
+/* .btn.btn-primary,.voyager .btn.btn-warning,.voyager .btn.btn-danger{
+    background: #CCC;
+} */
+
+/* add new ... select2 style */
+.select2-results ul#select2-clients-results li:last-child,
+.select2-results ul#select2-projects-results li:last-child,
+.select2-results ul#select2-sites-results li:last-child,
+.select2-results ul#select2-prestations-results li:last-child,
+.select2-results ul#select2-suppliers-results li:last-child {
+  color: #22a7f0;
+}
+.select2-results ul#select2-clients-results li:last-child:hover,
+.select2-results ul#select2-projects-results li:last-child:hover,
+.select2-results ul#select2-sites-results li:last-child:hover,
+.select2-results ul#select2-prestations-results li:last-child:hover,
+.select2-results ul#select2-suppliers-results li:last-child:hover {
+  color: white;
+}
+.select2-results ul#select2-clients-results li:last-child:hover, .select2-results ul#select2-projects-results li:last-child:hover, .select2-results ul#select2-sites-results li:last-child:hover, .select2-results ul#select2-prestations-results li:last-child:hover, .select2-results ul#select2-suppliers-results li:last-child:hover {
+color : white;
+}
+.voyager .btn.btn-success, .voyager .btn.btn-warning {
+background : #81C784;
+}
+.voyager #bulk_delete_btn {
+background : #E6544E;
+}
+.voyager .btn.btn-danger {
+background : #e6544e;
+}
+.voyager .edit, .voyager .btn-info {
+background : #00abe9;
+}
+.voyager .btn-info {
+border : none;
+}
+.caisse-dispo {
+position : fixed !important ;
+right : 100px;
+top : 18px;
+border : black solid 1px !important ;
+border-radius : 13px;
+padding : 0 5px;
+font-weight : bold;
+font-size : 15px;
+}
+.caisse-dispo b {
+font-weight : 700;
+}
+label {
+display : inline-block;
+max-width : 100%;
+font-weight : 700 !important ;
+color : black;
+margin-bottom : 0;
+margin-top : 5px;
+}
+.modal-dialog {
+position : absolute;
+left : 50%;
+top : 50%;
+transform : translate(-50%,-50%) !important ;
+}
+#dash .flex_align_baseline {
+align-items : baseline;
+}
+.date_filters {
+margin : 20px !important ;
+}
+#dash .chart_container_journal {
+width : 100%;
+border : none;
+padding : 10px 30px !important;
+}
+.voyager .side-menu.sidebar-inverse {
+background : linear-gradient(45deg, #3d536e, #21292e);
+}
+.chartFiltre {
+padding : 5px 0 !important ;
+margin : 0 5px !important;
+    border: 1px solid #eaecf0;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+#customChart{
+    color: inherit;
+}
+
+#dash .space-between {
+justify-content : space-between;
+}
+.caisse-dispo{
+    position: fixed !important;
+    right: 100px;
+    top: 15px;
+    border: 1px solid #000 !important;
+    padding: 5px 10px;
+}
+
+.modal-dialog{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) !important;
+}
+
+label {
+    font-weight: 700 !important;
+    color: black;
+    margin-top: 10px;
+}
+
+
+#dash .chart_container_journal{
+    width: 100%;
+    border: none;
+    padding: 40px 30px;
+}
+
+#dash .flex_align_baseline{
+    align-items: baseline;
+}
+.date_filters {
+    margin: 0 20px !important;
+    margin-bottom: 5px !important;
+}
+
+
+.addModals .panel-footer{
+    text-align: center;
+    background: inherit;
+}
+
+/* READ blade */
+
+.displayFilters{
+    width: 100%;
+}
+
+#affectation_filters{
+    margin: 10px 0;
+}
+#alimentation_filters{
+    margin: 10px 0;
+}
+
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.filtre_label{
+    margin-bottom: 5px;
+}
+
+/* read blade page */
+
+.page-content.read .panel-bordered > .panel-body {
+    background: none;
+}
+
+.page-content.read .panel .panel-body:not(:last-child) {
+    border-bottom: none;
+}
+
+.toastMargin{
+    margin-top: 50px;
+}
+
+/* datepicker */
+
+.ui-datepicker th{
+    color: black !important;
+  }
+
+  .ui-datepicker-prev, .ui-datepicker-next{
+    cursor: pointer;
+  }
+
+  .ui-widget-content .ui-state-active{
+    background: #3E629E !important;
+    border: #3E629E !important;
+    font-weight: bold;
+  }
+
+  .ui-datepicker .ui-datepicker-header {
+    background: #dcdcdc !important;
+  }
+
+  .ui-state-highlight, .ui-widget-content .ui-state-highlight,
+  .ui-widget-header .ui-state-highlight{
+    background: #bdc8e8 !important;
+    border: none !important;
+    font-weight: bold !important;
+    color: black !important;
+  }
+
+  .ui-datepicker th{
+      cursor: default;
+  }
+
+.ui-datepicker td a:hover{
+    color: white !important;
+    background: #8597ce !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default{
+    font-weight: bold !important;
+    text-align: center !important;
+    border: none !important;
+}
+
+.voyager .side-menu .navbar-header{
+    background: #3e629e;
+}
+
+.voyager .breadcrumb a {
+    color: #3e629e;
+}
